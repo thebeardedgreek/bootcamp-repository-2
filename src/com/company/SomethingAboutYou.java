@@ -11,7 +11,7 @@ public class SomethingAboutYou { public static void main( String[] args ) { Scan
     Scanner keyboard = new Scanner(System.in);
 
     System.out.print( "What is your first name? " );
-    firstName = keyboard.next();
+    firstName = sc.next();
 
     System.out.print( "How old are you? " );
     age = keyboard.nextInt();
