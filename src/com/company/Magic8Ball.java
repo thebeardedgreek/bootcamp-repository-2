@@ -14,12 +14,31 @@ public class Magic8Ball{
             "Concentrate and ask again.", "Don't count on it.",  "My reply is no.",  "My sources say no.",  "Outlook not so good.",
             "Very doubtful."};
 
-        System.out.print("Welcome to the Magic 8-ball!\n\n");
+        System.out.print("Welcome to the...\n\n"+
+        "  __  __                _             ___               ____          _  _    _ \n" +
+                " |  \\/  |              (_)           / _ \\             |  _ \\        | || |  | |\n" +
+                " | \\  / |  __ _   __ _  _   ___     | (_) |   ______   | |_) |  __ _ | || |  | |\n" +
+                " | |\\/| | / _` | / _` || | / __|     > _ <   |______|  |  _ <  / _` || || |  | |\n" +
+                " | |  | || (_| || (_| || || (__     | (_) |            | |_) || (_| || || |  |_|\n" +
+                " |_|  |_| \\__,_| \\__, ||_| \\___|     \\___/             |____/  \\__,_||_||_|  (_)\n" +
+                "                  __/ |                                                         \n" +
+                "                 |___/      ");
+
 
         while(keepGoing.equals("Y")){
             System.out.print("Ask me a question!\n\n");
             question = keyboard.nextLine();
-            System.out.print("YOU ASKED: " + question + "\nMAGIC 8-BALL SAYS: " + answers[randomInt]);
+            System.out.print("YOU ASKED: " + question + "\nMAGIC 8-BALL SAYS: \n\n" +
+                    "        ###        \n" +
+                    "    &@@@@@@@@@@,   \n" +
+                    "  &@@@@@..,@@@@@@  \n" +
+                    " @@@@@..@8@.,@@@@@______" + answers[randomInt] +
+                    "\n/@@@@@..&8@..@@@@@\n" +
+                    "(@@@@@@,....@@@@@@\n" +
+                    " @@@@@@@@@@@@@@@@% \n" +
+                    "  #@@@@@@@@@@@@@%  \n" +
+                    "    #&@@@@@@@@%*    "
+                    );
             System.out.println("\n\nAsk another question?\n(Y or N)\n\n");
             keepGoing = keyboard.next();
         }
