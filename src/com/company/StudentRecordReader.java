@@ -3,11 +3,9 @@ import java.util.Scanner;
 
 public class StudentRecordReader {
 
-    public static void main(String[] args) {
-        String fname, lname, status;
-        double gpa;
-        int hours;
-
+    public static void main( String[] args ) {
+        String fname, lname;
+        int gpa;
 
         Scanner keyboard = new Scanner(System.in);
 
@@ -18,17 +16,20 @@ public class StudentRecordReader {
         lname = keyboard.next();
 
         System.out.print( "Student's GPA? " );
-        gpa = keyboard.nextDouble();
+        gpa = keyboard.nextInt();
 
-        System.out.print( "Student's Current Course Load?" );
-        hours = keyboard.nextInt();
-
-        if (hours >= 12)
+        System.out.println();
+        System.out.println("Student Name :" + fname + " " + lname);
+        System.out.println("Student GPA :" + gpa);
+        if (gpa >= 3)
         {
-            System.out.println("\nStudent Name :" + fname + " " + lname);
-            System.out.println("Student Course Hours :" + hours);
-            System.out.println("Student GPA :" + gpa);
-            System.out.println("This student is in good standing and has 12 or more credit hours.");
+            System.out.println("This student is in good standing.");
+        } else if (gpa == 1)
+        {
+            System.out.println("This student is on academic probation.");
+        } else
+        {
+            System.out.println("This student has been expelled.");
         }
     }
 }
