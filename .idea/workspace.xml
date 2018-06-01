@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="976a3cc4-dd54-4382-a5b3-816dff4290ca" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/company/DiceRoller.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/company/RandomGenerator.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -57,12 +57,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DiceRoller.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DiceRoller.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/DiceRoller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="47" lean-forward="false" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+            <state relative-caret-position="153">
+              <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="34" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RandomGenerator.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/RandomGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="46" lean-forward="true" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+              <folding>
+                <element signature="e#471#472#0" expanded="true" />
+                <element signature="e#515#516#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -107,16 +120,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gradeChanger.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/gradeChanger.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -155,6 +158,7 @@
         <option value="$PROJECT_DIR$/src/com/company/StudentRecordReader.java" />
         <option value="$PROJECT_DIR$/src/com/company/PairProcess.java" />
         <option value="$PROJECT_DIR$/src/com/company/DiceRoller.java" />
+        <option value="$PROJECT_DIR$/src/com/company/RandomGenerator.java" />
       </list>
     </option>
   </component>
@@ -208,7 +212,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DiceRoller">
+  <component name="RunManager" selected="Application.RandomGenerator">
     <configuration name="DiceRoller" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -247,14 +251,14 @@
       <module name="practiceJava1" />
       <envs />
     </configuration>
-    <configuration name="RainfallCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="RandomGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.company.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.company.RainfallCount" />
+      <option name="MAIN_CLASS_NAME" value="com.company.RandomGenerator" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -332,19 +336,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.RainfallCount" />
-      <item index="1" class="java.lang.String" itemvalue="Application.StudentRecordReader" />
-      <item index="2" class="java.lang.String" itemvalue="Application.StringCompare" />
-      <item index="3" class="java.lang.String" itemvalue="Application.PairProcess" />
-      <item index="4" class="java.lang.String" itemvalue="Application.DiceRoller" />
+      <item index="0" class="java.lang.String" itemvalue="Application.StudentRecordReader" />
+      <item index="1" class="java.lang.String" itemvalue="Application.StringCompare" />
+      <item index="2" class="java.lang.String" itemvalue="Application.PairProcess" />
+      <item index="3" class="java.lang.String" itemvalue="Application.DiceRoller" />
+      <item index="4" class="java.lang.String" itemvalue="Application.RandomGenerator" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.DiceRoller" />
-        <item index="1" class="java.lang.String" itemvalue="Application.PairProcess" />
-        <item index="2" class="java.lang.String" itemvalue="Application.StudentRecordReader" />
-        <item index="3" class="java.lang.String" itemvalue="Application.StringCompare" />
-        <item index="4" class="java.lang.String" itemvalue="Application.RainfallCount" />
+        <item index="0" class="java.lang.String" itemvalue="Application.RandomGenerator" />
+        <item index="1" class="java.lang.String" itemvalue="Application.DiceRoller" />
+        <item index="2" class="java.lang.String" itemvalue="Application.PairProcess" />
+        <item index="3" class="java.lang.String" itemvalue="Application.StudentRecordReader" />
+        <item index="4" class="java.lang.String" itemvalue="Application.StringCompare" />
       </list>
     </recent_temporary>
   </component>
@@ -366,12 +370,12 @@
       <workItem from="1519245858889" duration="14000" />
       <workItem from="1527614477530" duration="596000" />
       <workItem from="1527781404883" duration="12920000" />
-      <workItem from="1527859010283" duration="4723000" />
+      <workItem from="1527859010283" duration="4904000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18375000" />
+    <option name="totallyTimeSpent" value="18556000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
@@ -694,9 +698,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/DiceRoller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="47" lean-forward="false" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+        <state relative-caret-position="153">
+          <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="34" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/RandomGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="46" lean-forward="true" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+          <folding>
+            <element signature="e#471#472#0" expanded="true" />
+            <element signature="e#515#516#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
