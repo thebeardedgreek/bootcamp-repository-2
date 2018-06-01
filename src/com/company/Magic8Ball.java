@@ -5,6 +5,7 @@ import java.util.Random;
 public class Magic8Ball{
     public static void main(String[] args){
         Scanner keyboard = new Scanner(System.in);
+        Scanner eightBall = new Scanner(System.in);
         String question, keepGoing = "Y";
         Random rnd = new Random();
         int randomInt = rnd.nextInt(19);
@@ -24,15 +25,15 @@ public class Magic8Ball{
                 "                  __/ |                                                         \n" +
                 "                 |___/      ");
 
+        System.out.print("Ask me a question!\n\n");
+        question = keyboard.nextLine();
 
-        while(keepGoing.equals("Y")){
-            System.out.print("Ask me a question!\n\n");
-            question = keyboard.nextLine();
+        while(keepGoing.equals("Y") || keepGoing.equals("y")){
             System.out.print("YOU ASKED: " + question + "\nMAGIC 8-BALL SAYS: \n\n" +
                     "        ###        \n" +
                     "    &@@@@@@@@@@,   \n" +
                     "  &@@@@@..,@@@@@@  \n" +
-                    " @@@@@..@8@.,@@@@@______" + answers[randomInt] +
+                    " @@@@@..@8@.,@@@@@  ______ " + answers[randomInt] +
                     "\n/@@@@@..&8@..@@@@@\n" +
                     "(@@@@@@,....@@@@@@\n" +
                     " @@@@@@@@@@@@@@@@% \n" +
@@ -41,6 +42,11 @@ public class Magic8Ball{
                     );
             System.out.println("\n\nAsk another question?\n(Y or N)\n\n");
             keepGoing = keyboard.next();
+            randomInt = rnd.nextInt(19);
+            if(keepGoing.equals("Y") || keepGoing.equals("y")){
+                System.out.println("What is your next question?");
+                question = eightBall.nextLine();
+            }
         }
         System.out.println("\nThank you for playing!\n\n" +
         "   _____                    _   _                   _ \n" +
